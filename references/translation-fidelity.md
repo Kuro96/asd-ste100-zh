@@ -1,68 +1,68 @@
-# 双语保真与语境化表达
+# Translation Fidelity and Context
 
-英文成稿与中文交付共享一个事实基准。翻译时，表达结构按中文习惯调整，信息项逐项对应。
+The English report and Chinese version share one factual baseline. Adapt the structure to natural Chinese while preserving each information item.
 
-## 最小工作记录
+## Minimal working notes
 
-短报告可以直接核对；信息复杂时建立下面两张小表。
+Compare short reports directly. For complex material, use a small glossary and fact table.
 
-### 术语表
+### Glossary
 
-| English | 中文 | 含义／标识 |
+| English | Chinese | Meaning or identifier |
 |---|---|---|
-| worker | 工作进程 | 执行任务的进程 |
-| job | 任务 | 本次执行单元，标识为 `job_id` |
-| artifact | 产物 | 本次执行生成的文件 |
+| worker | 工作进程 | The process that executes a job |
+| job | 任务 | The execution unit identified by `job_id` |
+| artifact | 产物 | A file produced by the execution |
 
-名称对应真实对象。对象属性和数据库记录分别说明，保持同一抽象层级。
+Names refer to actual objects. Keep object properties and database records at their respective levels.
 
-### 事实清单
+### Fact table
 
-| 信息 | 英文事实基准 | 中文对应 |
+| Item | English baseline | Chinese equivalent |
 |---|---|---|
-| 结果 | 18 of 20 records were imported. | 20 条记录中已导入 18 条。 |
-| 范围 | The import ran on Linux. | 导入运行环境为 Linux。 |
-| 待确认 | The cause may be a timeout. | 原因可能是超时。 |
-| 剩余项 | Windows validation is pending. | Windows 尚待验证。 |
+| Result | 18 of 20 records were imported. | 20 条记录中已导入 18 条。 |
+| Scope | The import ran on Linux. | 导入运行环境为 Linux。 |
+| Uncertainty | The cause may be a timeout. | 原因可能是超时。 |
+| Remaining work | Windows validation is pending. | Windows 尚待验证。 |
 
-## 核对维度
+## Comparison dimensions
 
-1. **数字与单位**：值、正负号、小数、范围、百分比、分母、单位和单位换算依据。
-2. **比较与性能**：基准版本、样本、统计量、测量环境、局部或整链口径。
-3. **时间**：日期、时区、时间范围、完成与计划状态，以及“截至何时”的依据。
-4. **对象与指代**：同名对象是否相同，执行者和接收者是否明确。
-5. **逻辑**：否定、量词、条件、例外、先后顺序、分支和失败路径。
-6. **因果与确信程度**：观察、相关性、假设和证实原因分别表达。
-7. **要求强度**：可能性、能力、许可、建议、义务分别表达。
-8. **标识符**：代码、命令、路径、型号、错误码、版本、URL 与引用目标原样对应。
-9. **来源与覆盖**：证据能支撑的结果、验证范围及剩余事项。
+1. **Numbers and units**: values, signs, decimals, ranges, percentages, denominators, units, and the basis for conversions.
+2. **Comparisons and performance**: baseline version, sample, statistic, environment, and stage-level or end-to-end scope.
+3. **Time**: dates, time zones, reporting periods, completed or planned states, and the evidence date.
+4. **Objects and references**: identity, actors, recipients, and clear pronouns.
+5. **Logic**: negation, quantities, conditions, exceptions, order, branches, and failure paths.
+6. **Causality and certainty**: observations, correlations, hypotheses, and confirmed causes.
+7. **Requirement strength**: possibility, ability, permission, recommendations, and obligations.
+8. **Identifiers**: code, commands, paths, models, error codes, versions, URLs, and citation targets.
+9. **Evidence and coverage**: supported results, review scope, and remaining work.
 
-## 常见语气
+## Contextual modality
 
-| 英文 | 中文语境表达 | 核对重点 |
+| English | Chinese wording | Preserve |
 |---|---|---|
-| may / might / could（推测） | 可能／也许／可能由……引起 | 保留推测强度 |
-| may（许可） | 可以／获准 | 保留许可及其条件 |
-| could（能力／委婉请求） | 能够／可否 | 结合时态及句子功能选择 |
-| can | 能够／可以／可能 | 根据能力、许可或可能性选择 |
-| should | 建议／应当 | 依据文档中的规范含义 |
-| must | 必须 | 保留义务 |
-| must not | 禁止／必须避免 | 保留禁止强度 |
-| planned / expected | 计划／预计 | 保留未来状态 |
-| observed / confirmed | 观察到／已确认 | 保留证据层级 |
-| only / unless / at least | 仅／除非／至少 | 保留范围、例外和下界 |
+| may / might / could: possibility | 可能／也许／可能由……引起 | Degree of uncertainty |
+| may: permission | 可以／获准 | Permission and its conditions |
+| could: ability or polite request | 能够／可否 | Tense and sentence function |
+| can | 能够／可以／可能 | Ability, permission, or possibility as used |
+| should | 建议／应当 | The document's intended normative strength |
+| must | 必须 | Obligation |
+| must not | 禁止／必须避免 | Prohibition |
+| planned / expected | 计划／预计 | Future status |
+| observed / confirmed | 观察到／已确认 | Evidence level |
+| only / unless / at least | 仅／除非／至少 | Scope, exceptions, and lower bounds |
 
-保留必要的否定和故障条件，例如“校验失败时，禁止加载产物”。这些语义直接影响行动。
+Preserve necessary negation and failure conditions. For example, “校验失败时，禁止加载产物” determines which action is permitted.
 
-## 语序与上下文
+## Natural Chinese structure
 
-- 将英文长修饰语拆成中文短句，先说对象和结果，再补范围。
-- 用项目已有术语替换生硬直译；精确标识符继续原样显示。
-- 省略中文可自然承接的重复主语，同时保持对象清楚。
-- 跨句调整信息时，保留条件和其所限定的动作。
-- 上下文提供新事实时，先更新英文成稿及事实清单，再更新中文。
-- 新建议单独标明“建议”，使读者能区分事实、原有要求和新增建议。
+- Split long modifiers into clear clauses. State the subject and result, then add scope where appropriate.
+- Use established domain terms while keeping exact identifiers unchanged.
+- Omit repeated subjects when Chinese permits it and the referent remains clear.
+- Keep each condition attached to the action it limits when moving information between sentences.
+- If context adds a fact, update the English report and fact table before updating the Chinese version.
+- Label added recommendations as “建议” so readers can distinguish them from facts and existing requirements.
 
-## 交付前的对照
+## Final comparison
 
-先逐项核对事实，再通读中文的自然度。请求双语时，两版采用相同的信息覆盖；请求中文时直接交付中文正文。核对表在用户需要审阅翻译差异时作为附表提供。
+Compare facts first, then read the Chinese for fluency. Bilingual output covers the same information in both versions. For Chinese-only requests, deliver the Chinese report directly. Include the comparison table when the user requests a translation review.

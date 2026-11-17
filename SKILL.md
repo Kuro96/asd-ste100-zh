@@ -12,99 +12,101 @@ metadata:
   tags: reporting, asd-ste100, english, chinese, translation
 ---
 
-# ASD-STE100 英文成稿与语境化中文汇报
+# English-First Reporting with Contextual Chinese Translation
 
-先完成明确、精炼、完整的英文报告，再结合语境译成自然中文。英文阶段借鉴 ASD-STE100 的受控写作原则；中文阶段以读者的理解和决策为目标，保留同一组事实与确定性。
+Write a complete English report first. Apply ASD-STE100-inspired writing principles, then translate the report into natural Chinese. Both versions share the same facts, scope, and certainty.
 
-## 适用任务与交付
+## Scope and output
 
-- 适用于进展、交付、排障、调研、决策汇报，以及这些文本的改写和双语核对。
-- 业务技能提供领域事实、执行方法和证据；本技能组织报告及译文。
-- 输入包括任务目标、受众、最新要求、用户纠正、原始材料和工具结果。
-- 默认交付中文正文。双语请求依次交付英文成稿、中文稿；英文请求交付英文成稿。语言、格式及篇幅以当前请求为准。
-- 英文中间稿是完整、可交付的报告文本。用户请求对照时可直接展示。
-- 短任务可用一句结论和几个要点。标题随信息量安排。
+- Use this workflow for progress, delivery, troubleshooting, research, and decision reports, including rewrites and bilingual reviews.
+- Domain skills supply facts, procedures, and evidence. This skill organizes the report and its translation.
+- Use the task goal, audience, current requirements, corrections, source material, and tool results as inputs.
+- Deliver Chinese by default. For bilingual output, present English first, then Chinese. For English-only requests, deliver the English report.
+- Follow the requested language, format, and length. The English draft is a complete report that can be delivered on request.
+- A short task may need one conclusion and a few bullets. Add headings when they help the reader.
 
-## 1. 锁定事实、范围和术语
+## 1. Establish facts, scope, and terms
 
-1. 明确报告回答的问题、目标读者、对象和时间范围。已有上下文充分时直接采用。
-2. 使用最新要求及纠正解释材料。当前状态采用本次可用的最新证据，并保留必要的时间范围。
-3. 区分已观察结果、执行中的工作、计划、建议、推断和待确认项。缺口影响结论时，在相应结论旁说明。
-4. 建立最小事实清单：结论、依据、范围、条件、状态、剩余事项。负责人和期限采用材料已有信息。
-5. 建立最小术语表：英文、中文、含义、原样保留的标识符。同一对象和同一含义使用固定名称；职责、属性或生命周期不同的对象分别命名。
+1. Identify the question, audience, subject, and reporting period. Use sufficient context already available.
+2. Apply the latest requirements and corrections. Use current evidence for current-state claims and retain its time scope.
+3. Distinguish observed results, work in progress, plans, recommendations, inferences, and unresolved items. Put material gaps beside the affected conclusion.
+4. Collect the conclusion, evidence, scope, conditions, status, and remaining work. Take owners and deadlines from the source material.
+5. Build a small glossary of English terms, Chinese terms, meanings, and exact identifiers. Use one name for each concept. Keep distinct objects, properties, and records distinct.
 
-完成条件：核心问题、关键结论、依据和剩余事项都有明确来源或状态。
+Ready when each key conclusion and remaining item has a source or a clear status.
 
-## 2. 完成独立可读的英文报告
+## 2. Complete a standalone English report
 
-按需要组织以下信息，合并相关项并省略空项：
+Include the information the task needs. Combine related items and omit empty sections.
 
-- **Result**：直接回答核心问题。
-- **Key facts**：给出支撑结论的变化、数据、证据和适用范围。
-- **Open items**：说明影响交付的剩余工作、阻塞或风险。
-- **Next action / Decision needed**：列出材料已支持的下一步或需要决定的问题。
+- **Result**: answer the main question directly.
+- **Key facts**: give the changes, measurements, evidence, and scope that support the result.
+- **Open items**: state remaining work, blockers, or risks that affect the result.
+- **Next action / Decision needed**: give supported next steps or questions that require a decision.
 
-改写已有文本时，保持原有的建议强度、时间关系及分支逻辑。新增建议放在单独标明的建议项中。通过明确当前状态表达完成时态，例如将“任务已完成且产物可用”写为两个清楚的事实。
+When rewriting, preserve requirement strength, time relationships, and branch logic. Label added recommendations separately. Express completion and current availability as separate facts when both are relevant.
 
-完成条件：读者单独阅读英文稿即可了解结果、依据、范围与后续事项。
+Ready when the English report alone explains the result, evidence, scope, and remaining work.
 
-## 3. 应用英文清晰写作规则
+## 3. Apply clear English writing rules
 
-默认采用**报告模式**：应用 STE 的结构原则，使用清楚的普通词和项目术语。用户指定正式 STE 核查时，采用**受控核查模式**：取得指定版本的标准和词典，逐项记录核查范围；待核查的词义、词性及规则保留明确状态。
+Use **report mode** by default: apply STE structural principles with plain words and established domain terms.
 
-| 对象 | 写法 |
+For a requested **controlled review**, obtain the specified edition of the standard and dictionary. Record the rules and vocabulary reviewed, plus unresolved items.
+
+| Area | Guidance |
 |---|---|
-| 描述性报告 | 每句以 25 词为上限，每段一个主题，最多六句。 |
-| 操作步骤 | 条件前置，使用祈使句，每句通常一个动作，以 20 词为上限。 |
-| 动作与责任 | 优先主动语态和具体动词。描述中执行者未知时可用被动语态。 |
-| 句子与列表 | 主语、动词、冠词及指代完整；复杂条件和序列拆成清单；用句号拆分分号句。 |
-| 术语与名词组合 | 同一概念统一称呼；连续名词组合以三个词为限，必要的正式技术名称保持完整并加说明。 |
-| 词汇与词形 | 普通词的正式许可取决于词典中的词义和词性；专业术语依据领域术语表。 |
-| 时态与语气 | 优先简单时态；保留可能性、义务强度和时间关系，再选择句式。 |
-| 精炼 | 用具体动作替换空泛名词化表达，用数据或状态替换评价性修饰。 |
+| Descriptions | Limit each sentence to 25 words. Use one topic and at most six sentences per paragraph. |
+| Procedures | Put conditions first. Use the imperative, normally one action per sentence, and a 20-word limit. |
+| Actions and responsibility | Prefer active voice and concrete verbs. Descriptions may use passive voice when the actor is unknown. |
+| Sentences and lists | Keep subjects, verbs, articles, and references clear. Separate complex conditions into lists. Split semicolon clauses into sentences. |
+| Terms and noun clusters | Use consistent names. Limit noun clusters to three words. Keep necessary formal technical names intact and explain them. |
+| Vocabulary | Review ordinary words for approved meaning and part of speech. Select technical terms from the domain glossary. |
+| Tense and modality | Prefer simple tenses while preserving possibility, obligation, and time relationships. |
+| Concision | Replace nominalized actions with concrete verbs. Replace evaluative modifiers with evidence or specific status. |
 
-这些英文长度规则用于英文稿。中文按自然语序组织。正式计数采用标准 Part 1 Section 8。
+Apply English word limits to the English draft. Use natural Chinese structure for the translation. Formal word counting follows Part 1, Section 8.
 
-读 [英文规则与模式](<references/english-rules.md>) 处理词典、`-ing`、被动语态及语气冲突。词典核查的典型细节：官方 FAQ 将 `check` 列为获准名词；选词需要同时核对词性。
+Read [English rules](<references/english-rules.md>) for dictionary use, `-ing`, voice, and modality. For example, the official FAQ approves `check` as a noun. Word choice requires a part-of-speech review.
 
-完成条件：英文清楚、结构简短，且包含影响判断与行动的全部信息。
+Ready when the English is clear and retains all information that affects judgment or action.
 
-## 4. 结合语境译为中文
+## 4. Translate into contextual Chinese
 
-1. 以英文成稿为信息基准，用任务背景和领域习惯确定中文表达。
-2. 按中文习惯调整语序、拆合句子和要点，用对象名称消除歧义指代。
-3. 使用用户和项目已有术语，保持业务对象、对象属性和内部记录的层级一致。
-4. 原样保留代码、命令、路径、型号、状态码及其他精确标识符。
-5. 逐项保留数字、单位、分母、比较基准、时间、因果、条件、例外、否定、范围及证据。
-6. 对齐确定性和要求强度：`may` 按语境译为“可能”或许可性的“可以／获准”，`should` → 建议／应当，`must` → 必须。结合语境辨别 `can`、`could` 的能力、许可、可能性或委婉请求。
-7. 区分完成、验证通过、计划、建议、预计与待确认。新增背景事实先修订英文稿，再同步中文稿。
+1. Use the completed English report as the factual baseline. Use task context and domain conventions to choose Chinese wording.
+2. Reorder, split, or combine sentences for natural Chinese. Use object names where pronouns would be ambiguous.
+3. Use established Chinese terminology. Preserve the distinctions between objects, properties, and internal records.
+4. Preserve code, commands, paths, model names, status codes, and other exact identifiers.
+5. Preserve numbers, units, denominators, comparison baselines, times, causes, conditions, exceptions, negation, scope, and evidence.
+6. Preserve certainty and requirement strength. Translate `may` as possibility or permission according to context. Distinguish the senses of `can` and `could`.
+7. Keep completed, verified, planned, recommended, expected, and unconfirmed states distinct. If context adds a fact, update the English report before the Chinese version.
 
-具体核对表与易错译法见 [双语保真](<references/translation-fidelity.md>)。
+Read [Translation fidelity](<references/translation-fidelity.md>) for the comparison checklist and contextual modality mappings.
 
-完成条件：两稿支持相同的理解与决策，中文自然、指代明确。
+Ready when both versions support the same understanding and decisions, and the Chinese reads naturally.
 
-## 5. 压缩、核对并交付
+## 5. Condense, review, and deliver
 
-- 结论前置，每项一个重点。保留影响判断的条件和限制。
-- 逐句核对英文的句长、语态、词义、词性、条件和指代，再核对两稿的语义。
-- 对照用户要求检查结果、证据、状态及剩余事项的覆盖。
-- 默认直接给所需正文。用户请求改写说明时，再提供“原文／改写／理由”对照。
-- 写入外部系统时，按对应业务流程执行并回读核验。
+- Lead with the conclusion. Give each item one main point and retain material conditions and limits.
+- Review English sentence length, voice, word meaning, part of speech, conditions, and references. Then compare the two versions for meaning.
+- Match every explicit request to a result or status. Check evidence, scope, and remaining work.
+- Deliver the requested text directly. Add an original / rewrite / reason comparison when requested.
+- When publishing through an external system, follow its task-specific procedure and read back the result.
 
-完成条件：输出在所需篇幅内直接回答问题，英中信息一致。
+Ready when the report answers the question at the requested length, with consistent information across languages.
 
-## 按需加载
+## References
 
-- [英文规则与模式](<references/english-rules.md>)：正式核查、术语、语法及语气。
-- [双语保真](<references/translation-fidelity.md>)：事实清单、语气和分支逻辑核对。
-- [双语示例](<examples/bilingual-reports.md>)：交付、排障、决策、条件与标识符。
-- [来源与许可](<references/sources.md>)：官方入口、上游版本及改编范围。
+- [English rules](<references/english-rules.md>): controlled review, vocabulary, grammar, and modality.
+- [Translation fidelity](<references/translation-fidelity.md>): facts, terminology, and branch logic.
+- [Bilingual examples](<examples/bilingual-reports.md>): diagnosis, measurements, conditions, and identifiers.
+- [Sources](<references/sources.md>): official guidance, upstream reference, and adaptation scope.
 
-## 交付检查
+## Delivery checklist
 
-- [ ] 英文成稿完整；需要中文稿时，中文稿基于该成稿。
-- [ ] 核心问题和每项明确要求都有对应结果或状态。
-- [ ] 对象名称、指代、句长、段落和存疑词用法已复核。
-- [ ] 数字、单位、时间、标识符、否定、条件和确定性逐项对齐。
-- [ ] 完成范围、验证范围和剩余事项符合证据。
-- [ ] 语言、形式与长度符合当前请求。
+- [ ] The English report is complete. Any Chinese version uses it as the factual baseline.
+- [ ] The main question and each explicit request have an answer or status.
+- [ ] Terms, references, sentence structure, and uncertain vocabulary have been reviewed.
+- [ ] Numbers, units, times, identifiers, negation, conditions, and certainty match.
+- [ ] Completion scope, review scope, and remaining work agree with the evidence.
+- [ ] Language, format, and length match the request.

@@ -1,65 +1,66 @@
-# 英文规则与核查模式
+# English Rules and Review Modes
 
-## 依据与优先顺序
+## Basis and priorities
 
-本指南概述 ASD-STE100 Issue 9 的相关写作原则，并说明通用报告中的应用方式。正式核查以指定版本的标准及词典为准；公开依据见 [来源](<sources.md>)。
+This guide summarizes relevant ASD-STE100 Issue 9 principles for general reporting. Formal review uses the specified standard and dictionary. See [Sources](<sources.md>).
 
-改写首先保持事实、条件、范围、义务强度和确定性，再通过拆句、术语统一和列表整理句式。必要的精确表达可保留并注明需进一步处理的规则。
+Preserve facts, conditions, scope, requirement strength, and certainty first. Then simplify sentence structure, align terms, and use lists. Retain precise wording when needed and record any rule that requires further review.
 
-## 两种工作模式
+## Two modes
 
-| 模式 | 适用范围 | 执行方式 |
+| Mode | Use | Method |
 |---|---|---|
-| 报告模式 | 进展、交付、排障、调研、决策摘要 | 应用结构原则，使用自然普通词和领域术语；词典许可取决于实际核查。 |
-| 受控核查模式 | 用户要求指定版本的 STE 核查 | 获取该版本，逐词核对词义和词性，审阅适用写作规则及技术术语类别，记录已核查与待核查项。 |
+| Report | Progress, delivery, troubleshooting, research, and decision reports | Apply structural principles with plain words and domain terms. Dictionary approval depends on actual review. |
+| Controlled review | A request for review against a specified STE edition | Obtain that edition. Review word meanings, parts of speech, applicable rules, and technical-term categories. Record reviewed and unresolved items. |
 
-报告模式采用日常清晰写作改编。中文阶段采用自然中文结构。
+Report mode adapts STE principles to general writing. The Chinese version uses natural Chinese structure.
 
-## 句子与组织
+## Sentences and organization
 
-- 描述性写作每句最多 25 词；程序性写作每句最多 20 词。
-- 每段一个主题，最多六句。复杂条件、枚举和序列使用纵向清单。
-- 操作步骤通常每句一个动作。先写影响执行的条件，再写动作。
-- 使用完整语法，保留必要主语、冠词和动词。明确代词对应的对象。
-- 将分号连接的信息拆为独立句子。其他标点依据句子结构使用。
-- 连续名词组合以三个词为限；正式技术名称保持可识别，按所用标准的规则处理。
-- 句长核查采用标准 Part 1 Section 8。
+- Limit descriptions to 25 words per sentence and procedures to 20.
+- Use one topic and at most six sentences per paragraph. Use vertical lists for complex conditions, sequences, and enumerations.
+- Normally give one action per procedural sentence. Put a required condition before the action.
+- Keep grammar complete, including necessary subjects, articles, and verbs. Make each pronoun's referent clear.
+- Split semicolon clauses into separate sentences. Choose other punctuation to fit the structure.
+- Limit noun clusters to three words. Keep formal technical names recognizable and review them under the applicable rules.
+- Use Part 1, Section 8 for formal word counting.
 
-**合成示例**
+**Illustration**
 
 > If the checksum matches, load the artifact. If the checksum differs, stop the import.
 
-条件和后续动作一一对应。
+Each condition applies to its own action.
 
-## 语态与动作
+## Voice and actions
 
-程序性文本采用主动语态和祈使句。描述性文本也优先主动语态；官方 FAQ 给出的被动语态例外是执行者未知。
+Use active voice and the imperative for procedures. Prefer active voice in descriptions. The official FAQ permits passive voice in descriptions when the actor is unknown.
 
 > The worker writes the result.
 >
 > During transmission, the data was corrupted.
 
-第二句保留了未知执行者的状态。日常报告若出现有意省略执行者的被动句，可从责任是否清楚的角度复核；正式核查按标准处理。
+The second sentence retains the unknown actor. In general reporting, review whether responsibility remains clear when a passive sentence omits an actor. Formal review follows the standard.
 
-用具体动词说明动作，减少“执行某项分析”式名词化。动词的正式可用性仍取决于词典：官方 FAQ 明确 `check` 获准作名词（如 `do a check`）。
+Use concrete verbs for actions and reduce nominalization. Formal verb approval still depends on the dictionary. The official FAQ approves `check` as a noun, as in `do a check`.
 
-## 词汇、词性与领域术语
+## Vocabulary and domain terms
 
-- 普通词核对获准词义及词性。“常见”与“获准”分别通过日常判断和词典核查确定。
-- 同一对象统一名称，同一动作统一表达。技术验证、用户确认等不同操作保留各自含义。
-- 使用项目已有的专业名词和专业动词，并在必要时定义。记录术语对应的对象或动作、词性、领域类别，以及正式文档、工程图或项目术语库中的来源。
-- 将容易歧义的短语动词换成清楚的单一动词，同时保持动作含义。
-- `-ing` 需要按用途和词典判断。技术名词及其组成部分可使用；官方 FAQ 也给出 `opening`、`remaining`、`something`、`during` 等获准词例外。
+- Review ordinary words for their approved meaning and part of speech. Familiarity and dictionary approval require separate judgments.
+- Use consistent names for the same object or action. Keep different operations, such as technical validation and user confirmation, distinct.
+- Use established technical nouns and verbs. Define them when needed. Record their meaning, part of speech, domain category, and terminology source.
+- Replace ambiguous phrasal verbs with clear single verbs while preserving the action.
+- Review `-ing` forms by function and dictionary entry. Technical nouns and their components may use these forms.
+- The FAQ also lists approved exceptions such as `opening`, `remaining`, `something`, and `during`.
 
-## 时态、语气与要求强度
+## Tense, modality, and requirement strength
 
-优先采用标准允许的动词形式和简单时态。报告中的时间关系、可能性及义务强度也是信息：
+Prefer permitted verb forms and simple tenses. Time relationships, uncertainty, and obligations are part of the report's meaning.
 
-| 原意 | 可采用的写法 | 需保留的信息 |
+| Source meaning | Wording | Information preserved |
 |---|---|---|
-| 任务已完成且输出当前可用 | The job finished. Its output is available. | 完成事实与当前可用状态 |
-| 请求可能已经失败 | The request may have failed. | 对过去事件的推测 |
-| 建议核对产物 | You should inspect the artifact. | 建议强度 |
-| 必须核对产物 | You must inspect the artifact. | 义务强度 |
+| The job finished and its output is available now | The job finished. Its output is available. | Completion and current availability |
+| A past request possibly failed | The request may have failed. | Uncertainty about a past event |
+| Inspection is recommended | You should inspect the artifact. | Recommendation |
+| Inspection is required | You must inspect the artifact. | Obligation |
 
-报告模式可保留承载语义的复合表达。受控核查模式需要寻找保留原意且符合指定规则的表达，并记录仍需处理的项。将 `should` 改为祈使句前，先确认材料的要求强度。
+Report mode may retain compound expressions that carry necessary meaning. For controlled review, find wording that preserves the meaning and fits the specified rules. Record unresolved items. Before converting `should` to an imperative, establish the source's requirement strength.
